@@ -18,7 +18,7 @@ default_platform(:ios)
 platform :ios do
 
   lane :build_and_export do
-    gym(scheme: "CatAppUITests")
+    gym(scheme: "CatApp")
 
     google_app_id = get_info_plist_value(
       path: "./CatApp/CatApp/GoogleService-Info.plist",
