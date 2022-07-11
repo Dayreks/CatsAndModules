@@ -12,7 +12,7 @@
 clean (true)
 
 output_directory("./output")
-workspace("CatsAndModules_Arkhypchuk.xcworkspace")
+workspace("CatsAndModulesArkhypchukCocoaPods.xcworkspace")
 destination("generic/platform=iOS")
 export_method ("development")
 output_name("CatsAndModules.ipa")

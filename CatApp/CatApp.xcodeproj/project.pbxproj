@@ -18,11 +18,9 @@
 		47498F0328762BB20031615E /* CatAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47498F0228762BB20031615E /* CatAppUITestsLaunchTests.swift */; };
 		47498F0A28762BC00031615E /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47498F0928762BC00031615E /* SnapshotHelper.swift */; };
 		474ABF3E2863592000092FCF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 474ABF3D2863592000092FCF /* GoogleService-Info.plist */; };
-		474ABF4128635E3200092FCF /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 474ABF4028635E3200092FCF /* FirebaseAppDistribution-Beta */; };
-		474ABF4328635E3200092FCF /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 474ABF4228635E3200092FCF /* FirebaseCrashlytics */; };
-		474ABF4528635E3200092FCF /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 474ABF4428635E3200092FCF /* FirebasePerformance */; };
-		474ABF542863686D00092FCF /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474ABF532863686D00092FCF /* Networking.framework */; };
-		474ABF552863686D00092FCF /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 474ABF532863686D00092FCF /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		479D9F42287CAB5800E5D2E0 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479D9F41287CAB5800E5D2E0 /* Networking.framework */; };
+		479D9F43287CAB5800E5D2E0 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 479D9F41287CAB5800E5D2E0 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5F1AD8BFC2E5B87A282D503C /* Pods_CatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77174218F05BDC97BDFC9793 /* Pods_CatApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		474ABF562863686D00092FCF /* Embed Frameworks */ = {
+		479D9F44287CAB5800E5D2E0 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				474ABF552863686D00092FCF /* Networking.framework in Embed Frameworks */,
+				479D9F43287CAB5800E5D2E0 /* Networking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		08D21850854A2A44F17E67D9 /* Pods-CatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatApp.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-CatApp/Pods-CatApp.release.xcconfig"; sourceTree = "<group>"; };
+		3D5AEE3E44DE8378DB6E55BD /* Pods-CatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatApp.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-CatApp/Pods-CatApp.debug.xcconfig"; sourceTree = "<group>"; };
 		471E154D285A209000BC1729 /* CatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatApp.swift; sourceTree = "<group>"; };
 		471E154F285A2EB300BC1729 /* CatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatList.swift; sourceTree = "<group>"; };
 		471E1551285A2F7000BC1729 /* CatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCell.swift; sourceTree = "<group>"; };
@@ -65,6 +65,8 @@
 		47498F0928762BC00031615E /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		474ABF3D2863592000092FCF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		474ABF532863686D00092FCF /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479D9F41287CAB5800E5D2E0 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77174218F05BDC97BDFC9793 /* Pods_CatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,10 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				474ABF542863686D00092FCF /* Networking.framework in Frameworks */,
-				474ABF4328635E3200092FCF /* FirebaseCrashlytics in Frameworks */,
-				474ABF4528635E3200092FCF /* FirebasePerformance in Frameworks */,
-				474ABF4128635E3200092FCF /* FirebaseAppDistribution-Beta in Frameworks */,
+				479D9F42287CAB5800E5D2E0 /* Networking.framework in Frameworks */,
+				5F1AD8BFC2E5B87A282D503C /* Pods_CatApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,9 @@
 		471E154A2858E38300BC1729 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				479D9F41287CAB5800E5D2E0 /* Networking.framework */,
 				474ABF532863686D00092FCF /* Networking.framework */,
+				77174218F05BDC97BDFC9793 /* Pods_CatApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,6 +106,7 @@
 				47498EFF28762BB20031615E /* CatAppUITests */,
 				4725EC732858DC66002C27A7 /* Products */,
 				471E154A2858E38300BC1729 /* Frameworks */,
+				C01D79CD0777017C7570DAC2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +153,15 @@
 			path = CatAppUITests;
 			sourceTree = "<group>";
 		};
+		C01D79CD0777017C7570DAC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D5AEE3E44DE8378DB6E55BD /* Pods-CatApp.debug.xcconfig */,
+				08D21850854A2A44F17E67D9 /* Pods-CatApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,22 +169,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4725EC802858DC67002C27A7 /* Build configuration list for PBXNativeTarget "CatApp" */;
 			buildPhases = (
+				143EB95B0BC228C7E4F02408 /* [CP] Check Pods Manifest.lock */,
 				4725EC6E2858DC66002C27A7 /* Sources */,
 				4725EC6F2858DC66002C27A7 /* Frameworks */,
 				4725EC702858DC66002C27A7 /* Resources */,
-				474ABF562863686D00092FCF /* Embed Frameworks */,
 				474ABF572863730E00092FCF /* ShellScript */,
+				C12C48705C776FED26B70267 /* [CP] Embed Pods Frameworks */,
+				479D9F44287CAB5800E5D2E0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CatApp;
-			packageProductDependencies = (
-				474ABF4028635E3200092FCF /* FirebaseAppDistribution-Beta */,
-				474ABF4228635E3200092FCF /* FirebaseCrashlytics */,
-				474ABF4428635E3200092FCF /* FirebasePerformance */,
-			);
 			productName = CatApp;
 			productReference = 4725EC722858DC66002C27A7 /* CatApp.app */;
 			productType = "com.apple.product-type.application";
@@ -223,9 +232,6 @@
 				Base,
 			);
 			mainGroup = 4725EC692858DC66002C27A7;
-			packageReferences = (
-				474ABF3F28635E3200092FCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
 			productRefGroup = 4725EC732858DC66002C27A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,9 +263,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		474ABF572863730E00092FCF /* ShellScript */ = {
+		143EB95B0BC228C7E4F02408 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474ABF572863730E00092FCF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -272,9 +300,26 @@
 			);
 			outputPaths = (
 			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/FirebaseCrashlytics/run\n";
+		};
+		C12C48705C776FED26B70267 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatApp/Pods-CatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatApp/Pods-CatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatApp/Pods-CatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -428,6 +473,7 @@
 		};
 		4725EC812858DC67002C27A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D5AEE3E44DE8378DB6E55BD /* Pods-CatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +507,7 @@
 		};
 		4725EC822858DC67002C27A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D21850854A2A44F17E67D9 /* Pods-CatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -557,35 +604,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		474ABF3F28635E3200092FCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		474ABF4028635E3200092FCF /* FirebaseAppDistribution-Beta */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 474ABF3F28635E3200092FCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAppDistribution-Beta";
-		};
-		474ABF4228635E3200092FCF /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 474ABF3F28635E3200092FCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
-		};
-		474ABF4428635E3200092FCF /* FirebasePerformance */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 474ABF3F28635E3200092FCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebasePerformance;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4725EC6A2858DC66002C27A7 /* Project object */;
 }

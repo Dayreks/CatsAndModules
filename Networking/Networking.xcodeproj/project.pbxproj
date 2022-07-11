@@ -10,13 +10,17 @@
 		47FAC63A285A4E66000C08F9 /* Networking.docc in Sources */ = {isa = PBXBuildFile; fileRef = 47FAC639285A4E66000C08F9 /* Networking.docc */; };
 		47FAC646285A4E66000C08F9 /* Networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 47FAC638285A4E66000C08F9 /* Networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47FAC650285A4EA0000C08F9 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FAC64F285A4EA0000C08F9 /* Networking.swift */; };
+		EBE8B98CAFC7E9231B055502 /* Pods_Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13C46401D71D2469190F5E92 /* Pods_Networking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13C46401D71D2469190F5E92 /* Pods_Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FAC635285A4E66000C08F9 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FAC638285A4E66000C08F9 /* Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Networking.h; sourceTree = "<group>"; };
 		47FAC639285A4E66000C08F9 /* Networking.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Networking.docc; sourceTree = "<group>"; };
 		47FAC64F285A4EA0000C08F9 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		995BAC33E15B3DB51EC61EB6 /* Pods-Networking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.release.xcconfig"; path = "Target Support Files/Pods-Networking/Pods-Networking.release.xcconfig"; sourceTree = "<group>"; };
+		A4F6D1E032F2F7908A024AB2 /* Pods-Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.debug.xcconfig"; path = "Target Support Files/Pods-Networking/Pods-Networking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,17 +28,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE8B98CAFC7E9231B055502 /* Pods_Networking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		389BB43C09D907A717C28529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13C46401D71D2469190F5E92 /* Pods_Networking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		47FAC62B285A4E66000C08F9 = {
 			isa = PBXGroup;
 			children = (
 				47FAC637285A4E66000C08F9 /* Networking */,
 				47FAC636285A4E66000C08F9 /* Products */,
+				BD016FA0742481E787545673 /* Pods */,
+				389BB43C09D907A717C28529 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +71,16 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		BD016FA0742481E787545673 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4F6D1E032F2F7908A024AB2 /* Pods-Networking.debug.xcconfig */,
+				995BAC33E15B3DB51EC61EB6 /* Pods-Networking.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47FAC649285A4E66000C08F9 /* Build configuration list for PBXNativeTarget "Networking" */;
 			buildPhases = (
+				F36451DBF619C097E4D5E3C9 /* [CP] Check Pods Manifest.lock */,
 				47FAC630285A4E66000C08F9 /* Headers */,
 				47FAC631285A4E66000C08F9 /* Sources */,
 				47FAC632285A4E66000C08F9 /* Frameworks */,
@@ -84,8 +110,6 @@
 			dependencies = (
 			);
 			name = Networking;
-			packageProductDependencies = (
-			);
 			productName = Networking;
 			productReference = 47FAC635285A4E66000C08F9 /* Networking.framework */;
 			productType = "com.apple.product-type.framework";
@@ -114,9 +138,6 @@
 				Base,
 			);
 			mainGroup = 47FAC62B285A4E66000C08F9;
-			packageReferences = (
-				474ABF4C2863608200092FCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
 			productRefGroup = 47FAC636285A4E66000C08F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -135,6 +156,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F36451DBF619C097E4D5E3C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Networking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		47FAC631285A4E66000C08F9 /* Sources */ = {
@@ -271,6 +317,7 @@
 		};
 		47FAC64A285A4E66000C08F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4F6D1E032F2F7908A024AB2 /* Pods-Networking.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
@@ -303,6 +350,7 @@
 		};
 		47FAC64B285A4E66000C08F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995BAC33E15B3DB51EC61EB6 /* Pods-Networking.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
@@ -354,17 +402,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		474ABF4C2863608200092FCF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 47FAC62C285A4E66000C08F9 /* Project object */;
 }

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>83775401394-vo8fm3rkn1js19n141027qgabig3l795.apps.googleusercontent.com</string>
+	<string>100550043137-8lgg3k5t83d0crhau7lq3eqi4sklul1d.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.83775401394-vo8fm3rkn1js19n141027qgabig3l795</string>
+	<string>com.googleusercontent.apps.100550043137-8lgg3k5t83d0crhau7lq3eqi4sklul1d</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCaXWnVSkOmz47wPhfSBnPh7jxczFy_nUU</string>
+	<string>AIzaSyCCvlQeJ7hchR4u7_GLGZKvcJG4Ho1QAkQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>83775401394</string>
+	<string>100550043137</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>ua.edu.ukma.ArkhypcukBohdan.CatApp</string>
 	<key>PROJECT_ID</key>
-	<string>catsandmodulesarkhypchuk</string>
+	<string>catsandmodulescocoapods</string>
 	<key>STORAGE_BUCKET</key>
-	<string>catsandmodulesarkhypchuk.appspot.com</string>
+	<string>catsandmodulescocoapods.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:83775401394:ios:9a7ff9e856e922c84c48ab</string>
+	<string>1:100550043137:ios:5262cb02c6ce8820c74200</string>
 </dict>
 </plist>
